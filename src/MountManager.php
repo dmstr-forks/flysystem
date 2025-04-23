@@ -635,11 +635,11 @@ class MountManager implements FilesystemInterface
      * @deprecated
      *
      * @param string  $path    The path to the file.
-     * @param Handler $handler An optional existing handler to populate.
+     * @param Handler|null $handler An optional existing handler to populate.
      *
      * @return Handler Either a file or directory handler.
      */
-    public function get($path, Handler $handler = null)
+    public function get($path, ?Handler $handler = null)
     {
         list($prefix, $path) = $this->getPrefixAndPath($path);
 
