@@ -1,4 +1,5 @@
 <?php
+// file generated with AI assistance: Claude Code - 2026-10-30 11:59:17 UTC
 
 namespace League\Flysystem\Adapter;
 
@@ -384,7 +385,7 @@ class Ftp extends AbstractFtpAdapter
             return true;
         }
 
-        return (boolean) ftp_mkdir($connection, $directory);
+        return (bool) ftp_mkdir($connection, $directory);
     }
 
     /**
