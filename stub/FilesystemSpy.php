@@ -1,4 +1,5 @@
 <?php
+// file generated with AI assistance: Claude Code - 2026-11-24 08:05:00 UTC
 
 namespace League\Flysystem\Stub;
 
@@ -347,7 +348,7 @@ class FilesystemSpy implements FilesystemInterface
      *
      * @return Handler Either a file or directory handler.
      */
-    public function get($path, Handler $handler = null)
+    public function get($path, ?Handler $handler = null)
     {
         $this->lastCall = [__METHOD__, func_get_args()];
     }
