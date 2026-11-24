@@ -6,6 +6,8 @@
 ### Fixed
 
 - [Core] Declared implicitly nullable parameters explicitly (`Handler`, `FileExistsException`, `FileNotFoundException`) to silence the PHP 8.4 deprecation.
+- [Stub] Declared the implicitly nullable parameter of `FilesystemSpy::get()` explicitly.
+- [FTP] Used the canonical `(bool)` cast for the `ftp_mkdir` result (non-canonical `(boolean)` is deprecated in PHP 8.5).
 
 ## 1.1.10 - 2022-10-04
 
