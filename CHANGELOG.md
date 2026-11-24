@@ -6,6 +6,7 @@
 ### Fixed
 
 - [Core] Declared implicitly nullable parameters explicitly (`Handler`, `FileExistsException`, `FileNotFoundException`) to silence the PHP 8.4 deprecation.
+- [FTP] Use the canonical `(bool)` cast for the `ftp_mkdir` result (non-canonical `(boolean)` is deprecated in PHP 8.5).
 
 ## 1.1.10 - 2022-10-04
 
