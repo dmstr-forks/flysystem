@@ -1,4 +1,11 @@
+<!-- file generated with AI assistance: Claude Code - 2026-11-24 07:53:00 UTC -->
 # Changelog
+
+## Unreleased
+
+### Fixed
+
+- [Core] Declared implicitly nullable parameters explicitly (`Handler`, `FileExistsException`, `FileNotFoundException`) to silence the PHP 8.4 deprecation.
 
 ## 1.1.10 - 2022-10-04
 

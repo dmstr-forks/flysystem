@@ -1,4 +1,5 @@
 <?php
+// file generated with AI assistance: Claude Code - 2026-11-24 07:53:00 UTC
 
 namespace League\Flysystem;
 
@@ -25,7 +26,7 @@ abstract class Handler
      * @param FilesystemInterface $filesystem
      * @param string              $path
      */
-    public function __construct(FilesystemInterface $filesystem = null, $path = null)
+    public function __construct(?FilesystemInterface $filesystem = null, $path = null)
     {
         $this->path = $path;
         $this->filesystem = $filesystem;
